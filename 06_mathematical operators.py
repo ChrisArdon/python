@@ -7,4 +7,6 @@
 ##PEMDASLR () ** */ +-
 #Parenthesis, Exponential, Multiplication and Division, Addition and Substraction, in an order from Left to Right
 
-print(3 * 3 + 3 / 3 - 3)
+print(3 * 3 + 3 / 3 - 3) #The result is 7 with the PEMDAS method
+
+print(3 * (3 + 3) / 3 - 3)
