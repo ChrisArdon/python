@@ -6,4 +6,15 @@ def deal_card():
     random_card = cards[random.randint(0, 12)]
     return random_card
 
-print(deal_card())
+#Lists that will hold the random cards
+user_cards = []
+computer_cards = []
+
+#Deal the user and computer 2 cards each using deal_card() and append().
+user_cards.append(deal_card())
+user_cards.append(deal_card())
+computer_cards.append(deal_card())
+computer_cards.append(deal_card())
+
+print(f"User: {user_cards}")
+print(f"Computer: {computer_cards}")
