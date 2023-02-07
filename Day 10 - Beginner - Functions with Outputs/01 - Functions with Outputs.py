@@ -9,5 +9,5 @@ def format_name(f_name, l_name):
     formated_l_name = l_name.title()
     return f"{formated_f_name} {formated_l_name}"    
 
-formated_string = format_name("andRea gisselle", "eLiAs aRDON")
+formated_string = format_name("ChrIstiAN roDriGo", "aRDON RIvAS")
 print(formated_string)
